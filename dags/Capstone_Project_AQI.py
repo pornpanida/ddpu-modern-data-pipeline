@@ -172,7 +172,7 @@ with DAG(
 
     send_alert_email = EmailOperator(
         task_id="send_alert_email",
-        to=["Somyong@odds.team"],
+        to=["pornpanida@odds.team"],
         subject="🔥 Weather Alert: Temperature Too High!",
         html_content="The temperature in Bangkok exceeds 35°C. Please take precautions!",
     )
@@ -181,7 +181,7 @@ with DAG(
 
     send_email = EmailOperator(
         task_id="send_email",
-        to=["Somyong@odds.team"],
+        to=["pornpanida@odds.team"],
         subject="Weather pipeline completed",
         html_content="The weather data pipeline has completed successfully.",
     )
