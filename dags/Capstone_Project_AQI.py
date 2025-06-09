@@ -126,7 +126,7 @@ def _check_temp_alert():
     return "send_alert_email" if temp > 35 else "no_alert"
 
 default_args = {
-    "email": ["Somyong@odds.team"],
+    "email": ["pornpanida@odds.team"],
     "retries": 3,
     "retry_delay": timedelta(minutes=1),
     "start_date": timezone.datetime(2025, 1, 1)
